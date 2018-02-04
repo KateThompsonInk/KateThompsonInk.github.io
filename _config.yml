@@ -1,0 +1,44 @@
+title: Kate Thompson
+description: Checkout all my kids stories
+show_downloads: false
+google_analytics: ''
+theme: jekyll-theme-tactile
+
+kramdown:
+  # Disable auto-generated ID's for headings
+  auto_ids: false
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+author: Kate Thompson
+publisher: Kate Thompson
+
+twitter:
+  username: X
+facebook:
+  publisher: 1
+  admins: 1
+
+social:
+  name: X
+  links:
+    - https://twitter.com/X
+
+webmaster_verifications:
+  google: XXX
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+    values:
+      layout: "book"
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/book.png
+        height: 128
+        width: 128
