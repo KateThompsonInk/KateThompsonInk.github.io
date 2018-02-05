@@ -1,0 +1,36 @@
+$light: rgba(#f8f9fa, .6);
+$navbar-light-color: #212529;
+$navbar-light-disabled-color: #212529;
+
+
+@import "bootstrap/bootstrap";
+
+body {
+  @include img-retina('/assets/images/natural_paper.png', '/assets/images/natural_paper_@2X.png', 523px, 384px);
+}
+
+#contentWrapper {
+  margin-top: 60px;
+}
+
+.book-cover {
+  &, &:hover {
+    color: $body-color;
+    text-decoration: none;
+  }
+
+  .card-img-top-wrapper {
+    padding-bottom: 125%;
+    position: relative;
+    overflow: hidden;
+    img {
+      position: absolute;
+      transition: transform 0.2s;
+    }
+  }
+  &:hover {
+    .card-img-top-wrapper img {
+      transform: scale(1.1)
+    }
+  }
+}

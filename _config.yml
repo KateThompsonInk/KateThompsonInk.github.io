@@ -1,8 +1,6 @@
 title: Kate Thompson
 description: Checkout all my kids stories
-show_downloads: false
 google_analytics: ''
-theme: jekyll-theme-tactile
 
 kramdown:
   # Disable auto-generated ID's for headings
