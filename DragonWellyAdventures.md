@@ -1,4 +1,0 @@
----
----
-
-# Dragon Welly Adventures

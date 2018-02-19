@@ -1,4 +1,0 @@
----
----
-
-# The Bug Hotel Ball
